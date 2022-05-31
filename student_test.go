@@ -10,4 +10,6 @@ import "testing"
 	}
 }*/
 
-func TestConcatenator(t *testing.T) {}
+func TestConcatenator(t *testing.T) {
+
+}
