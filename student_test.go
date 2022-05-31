@@ -9,3 +9,11 @@ func TestConcatenator(t *testing.T) {
 		t.Errorf("Error: want and got do not match\nwant: %v, got: %v\n", want, got)
 	}
 }
+
+func TestSummator(t *testing.T) {
+	want := 10
+	got := summator(4, 6)
+	if got != want {
+		t.Errorf("Error: want and got do not match\nwant: %v, got: %v\n", want, got)
+	}
+}
