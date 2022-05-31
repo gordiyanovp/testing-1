@@ -1,5 +1,3 @@
-//go:build student_tests
-
 package coverage
 
 import "testing"
@@ -12,10 +10,10 @@ func TestConcatenator(t *testing.T) {
 	}
 }
 
-func TestSummator(t *testing.T) {
+/*func TestSummator(t *testing.T) {
 	want := 10
 	got := summator(4, 6)
 	if got != want {
 		t.Errorf("Error: want and got do not match\nwant: %v, got: %v\n", want, got)
 	}
-}
+}*/
